@@ -30,3 +30,9 @@ jobs:
           path: sbom.json
       - name: Gate de dependencias
         run: npm audit --audit-level=high
+
+        with:
+          name: sbom
+          path: sbom.json
+      - name: Gate de dependencias
+        run: npm audit --audit-level=high
